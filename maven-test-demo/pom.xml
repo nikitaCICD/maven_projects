@@ -3,7 +3,13 @@
   <groupId>com.first</groupId>
   <artifactId>maven-test-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
+ <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>2.4</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+</configuration>
   <dependencies>
 <dependency>
     <groupId>junit</groupId>
